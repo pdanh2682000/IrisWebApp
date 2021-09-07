@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="login-form-container">
+        <div class="card" style="width: 400px">
+            <div class="card-content">
+                <div class="media">
+                    <div class="is-size-4 has-text-centered">
+                        <h3>Logistic</h3>
+                        {{ variety_logistic }}
+                    </div>
+                    <div class="is-size-4 has-text-centered">
+                        <h3>Decission Tree</h3>
+                        {{ variety_decisionTree }}
+                    </div>
+                    <div class="is-size-4 has-text-centered">
+                        <h3>K Nearest Neighbors</h3>
+                        {{ variety_KNN }}
+                    </div>
+                    <div class="is-size-4 has-text-centered">
+                        <h3>Naive Bayes</h3>
+                        {{ variety_Bayes }}
+                    </div>
+                    <div class="is-size-4 has-text-centered">
+                        <h3>SVM</h3>
+                        {{ variety_SVM }}
+                    </div>
+                </div>
+                <br>
+                <form action="home">
+                    <div class="field">
+                        <button class="button is-fullwidth is-rounded is-success">Retry</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
