@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Classification Iris</title>
+    <title>8/3</title>
+    
     <style>
         body {
+            background-color: pink;
             background-image: url("background.jpeg");
             background-repeat: no-repeat;
             background-size: 100% auto;
@@ -91,6 +93,23 @@
             </div>
         </form>
     </div> -->
-    <h3 style="text-align:center;">Chúc mừng 8/3 Bích Thùy!!!</h3>
+    <h1 style="text-align:center;" id="textHighlight">Chúc mừng 8/3 bạn và mẹ bạn Bích Thùy có nhiều niềm vui và sức khỏe nhá!!!</h1>
+    <script type="text/javascript">
+        obj = document.getElementById("textHighlight");
+        obj.style.color = "pink";
+        setInterval(changeColor, 500);
+
+        function changeColor() {
+            if (obj.style.color == "black") {
+                obj.style.color = "purple";
+            } else if (obj.style.color == "purple") {
+                obj.style.color = "orange";
+            } else if (obj.style.color == "orange") {
+                obj.style.color = "brown";
+            } else {
+                obj.style.color = "black";
+            }
+        }
+    </script>
 </body>
 </html>
